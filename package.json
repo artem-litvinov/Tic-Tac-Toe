@@ -1,0 +1,19 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "description": "HTML5 Tic-Tac-Toe game",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litvinovArt/Tic-Tac-Toe.git"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "game",
+    "html5"
+  ],
+  "author": "",
+  "license": "",
+  "bugs": {}
+}
