@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Three Taps Heroes</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        #game {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+        }
+    
+        #game-msg {
+          text-align: center;
+          font-size: 150%
+        }
+      </style>
+    <script src="libs/jquery-3.1.1.min.js"></script>
+</head>
+    
+<body style="background-color:#D8D8D8">
+    <div id='game'>
+        <canvas id='canvas'></canvas>
+        <div id='game-msg'></div>
+    </div>
+
+    <audio id="win" src="audio/win.wav" ></audio>
+    <audio id="lose" src="audio/lose.wav" ></audio>
+
+    <script type="text/javascript" src="js/GameGrid.js"></script>
+    <script type="text/javascript" src="js/Button.js"></script>
+    <script type="text/javascript" src="js/Game.js"></script>
+</body>
+    
+</html>

@@ -1,19 +1,24 @@
 {
   "name": "tic-tac-toe",
   "version": "0.0.1",
-  "description": "HTML5 Tic-Tac-Toe game",
+  "description": "Best Tic-Tac-Toe ever",
+  "main": "_token.js",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "telegraf": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo node index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/litvinovArt/Tic-Tac-Toe.git"
+    "url": "git+https://github.com/litvinovArt/Tic-Tac-Toe.git"
   },
-  "keywords": [
-    "tic",
-    "tac",
-    "toe",
-    "game",
-    "html5"
-  ],
+  "keywords": [],
   "author": "",
   "license": "",
-  "bugs": {}
+  "homepage": "https://github.com/litvinovArt/Tic-Tac-Toe"
 }
